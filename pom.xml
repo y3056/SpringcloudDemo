@@ -20,6 +20,7 @@
         <module>hystrix</module>
         <module>nativeconfigServer</module>
         <module>nativeconfigclient</module>
+        <module>configserver</module>
     </modules>
 
 
