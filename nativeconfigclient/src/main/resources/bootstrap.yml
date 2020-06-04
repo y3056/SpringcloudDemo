@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: configclient
+  profiles:
+    active: dev #通过这样 访问 结合判断 （-） 字符
+  cloud:
+    config:
+      uri: http://localhost:8762  #本地 config server 的访问路径
+      fail-fast: true #设置客户端的优先判断获取是否正常
